@@ -1,0 +1,31 @@
+/* Styles for the map container */
+#map {
+  height: 600px;
+}
+
+/* Styles for the legend */
+.legend {
+  background-color: white;
+  padding: 8px 12px; /* Reduced padding for a smaller legend box */
+  font: 16px/20px Arial, Helvetica, sans-serif; /* Adjusted font size and line height */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 180px; /* Reduced width for a smaller legend box */
+}
+
+.legend h4 {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.legend-row {
+  margin-bottom: 4px; /* Adjusted spacing between legend rows */
+}
+
+.legend i {
+  display: inline-block;
+  width: 20px; /* Reduced width of color boxes */
+  height: 20px; /* Reduced height of color boxes */
+  margin-right: 8px; /* Adjusted margin for spacing */
+  vertical-align: middle; /* Align vertically with text */
+}
